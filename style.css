@@ -198,6 +198,9 @@ header {
   font-size: 32px;
   margin-top: 0;
 }
+.hızlı a {
+  color: #CE2829;
+}
 .yazı {
   display: flex;
   flex-direction: column;
@@ -262,6 +265,11 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+}
+.detay nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 .metin {
   background-color: white;
@@ -378,20 +386,22 @@ h4 {
     margin: auto;
 
   }
+  .menu-iç {
+    width: 45%;
+  }
   .yazı {
     text-align: center;
   }
   .menu-2 {
     flex-wrap: wrap;
-    padding: 0%;
+   padding: 32px 64px;
     margin: auto;
   }
-  .menu-iç {
-    width: 45%;
-  }
-  .yemek-2 {
-    width: 45%;
 
+  .yemek-2 {
+    gap: 10px;
+    padding: 0px 20px;
+    margin: 10px 0;
   }
   .pizzalar {
     flex-direction: column;
