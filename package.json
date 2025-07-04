@@ -10,5 +10,19 @@
   },
   "devDependencies": {
     "vite": "^4.2.0"
-  }
+  },
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Vite Dev Server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 9229,
+      "console": "integratedTerminal"
+    }
+  ]
 }
